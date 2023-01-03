@@ -54,9 +54,5 @@ public class Player {
 
     }
 
-    public static void main(String[] args){
-        Player a= new Player(Tom);
-        Player b=new Player (Jerry,1);
-    }
- 
+    
 }

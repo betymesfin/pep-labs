@@ -52,7 +52,7 @@ public class QueueExercise {
      */
     public void addToEndOfQueue(Queue<String> queue, String item){
         
-        queue.add("A");
+        queue.add(item);
 
     }
 

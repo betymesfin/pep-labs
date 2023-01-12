@@ -52,7 +52,7 @@ public class MapExercise {
      */
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
         
-        map.put(1, "one");
+        map.put(key, value);
 
     }
 

@@ -49,7 +49,7 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        String rm=stack.poll();
+        String rm=stack.pop();
         
         return rm; 
     }

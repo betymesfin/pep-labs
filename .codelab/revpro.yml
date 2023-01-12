@@ -366,11 +366,11 @@
     :tests:
       createMapTest: 1
       getSizeTest1: 1
-      getSizeTest2: 0
+      getSizeTest2: 1
       addKeyValuePairTest1: 0
       addKeyValuePairTest2: 0
       removeKeyValuePairTest1: 1
-      overwriteValueTest1: 1
+      overwriteValueTest1: 0
   Queue:
     :Week: 3
     :Order: 7

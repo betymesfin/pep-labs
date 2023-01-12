@@ -53,8 +53,6 @@ public class MapExercise {
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
         
         map.put(1, "one");
-        map.put(2, "two");
-        map.put(3, "three");
 
     }
 

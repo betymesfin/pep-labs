@@ -1,4 +1,6 @@
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 /**
@@ -26,6 +28,7 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
+        Map<Integer, String> hm=new HashSet<Integer,String>();
         return null;
     }
 

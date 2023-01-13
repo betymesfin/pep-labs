@@ -1,2 +1,2 @@
-INSERT INTO song (title, artist) VALUES ("a","b");
+INSERT INTO song (title, artist) VALUES ('a','b');
  

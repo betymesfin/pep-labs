@@ -10,9 +10,21 @@ public class DoesNotContain {
      *
      * @param arr the array we will be manipulating.
      * @param target the value we are searching for.
-     * @return true if arr does not contain target. false otherwise.
+     * @return true if arr does not contain target. false otherwis.e
      */
     public boolean arrayDoesNotContain(int[] arr, int target){
-        return false;
+        int intArray[];    //declaring array
+        intArray = new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==target){
+                return false;
+            }
+            else{
+                intArray[i]=arr[i];
+            }
+            
+
+        }
+        return true;
     }
 }

@@ -28,6 +28,7 @@ public class ArraysAreEqualTest {
         Assert.assertEquals(expected, actual);
     }
 
+
     /**
      * {0,1,2,3,5} is not equal to {0,1,2,3,4}, so equal should return false.
      */

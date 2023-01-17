@@ -1,1 +1,1 @@
-SELECT * FROM Character  ORDER BY firstname DESC;
+SELECT* FROM character  ORDER BY last_name,first_name ASC;

@@ -1,7 +1,7 @@
 
 //
 import java.util.List;
-import com.google.common.primitives.Ints;
+//import com.google.common.primitives.Ints;
 public class IndexOf {
     /**
      * Find the position of a number in an array.
@@ -12,6 +12,28 @@ public class IndexOf {
      * @return the first index (position) of n in arr. if n does not exist in arr, return -1.
      */
     public int getIndex(int[] arr, int n){
-        return Ints.IndexOf(arr,n);
+        // if array is Null
+        if (arr == null) {
+            return -1;
+        }
+ 
+        // find length of array
+        int len = arr.length;
+        int i = 0;
+ 
+        // traverse in the array
+        while (i < len) {
+ 
+            // if the i-th element is n
+            // then return the index
+            if (arr[i] == n) {
+                return i;
+            }
+            else {
+                i = i + 1;
+            }
+        }
+        return -1;
+    
     }
 }

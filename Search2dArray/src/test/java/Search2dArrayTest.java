@@ -73,8 +73,8 @@ public class Search2dArrayTest {
                         {3,5,7,9,4,3,9},
                         {3,2,6,9,6,4,0}
                 };
-        int target = 10;
-        boolean expected = false;
+        int target = 0;
+        boolean expected = true;
         boolean actual = sat.search(input,target);
     }
 }

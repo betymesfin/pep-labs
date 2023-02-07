@@ -70,7 +70,6 @@ public class LibraryController {
         app.get("/books/available", this::getAvailableBooksHandler);
         app.start(8080);
     }
-
     /**
      * Handler to post a new author.
      * The Jackson ObjectMapper will automatically convert the JSON of the POST request into an Author object.

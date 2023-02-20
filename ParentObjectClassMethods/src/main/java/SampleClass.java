@@ -54,10 +54,23 @@
 public class SampleClass {
     public int a;
     public boolean b;
+    
+    
 
     //    implement a custom .equals(SampleClass other){} method here.
+    public boolean equals(SampleClass other){
+        if (other == this) {  
+            return true;  
+         }  
+         
+         return false;
+        }
+    
 
-
+    public String toString(){
+        return a + " " + b;
+    }
+  
     //    implement a custom .toString(){} method here.
 
     

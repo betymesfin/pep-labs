@@ -59,7 +59,7 @@ public class SampleClass {
 
     //    implement a custom .equals(SampleClass other){} method here.
     public boolean equals(SampleClass other){
-        if (other == this) {  
+        if (other.a == this.a &other.b == this.b) {  
             return true;  
          }  
          

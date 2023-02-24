@@ -9,6 +9,7 @@ public class MostCommonCharacter {
      */
     public char recurringChar(String str) {
         
+        
         return ' ';
     }
 }

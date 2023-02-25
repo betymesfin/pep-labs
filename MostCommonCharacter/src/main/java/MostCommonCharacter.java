@@ -29,12 +29,11 @@ public class MostCommonCharacter {
     }
    }
   
-  //Determine minimum and maximum occurring characters  
+    
   max = count[0];  
   for(i = 0; i <count.length; i++) {  
         
-      //If max is less than frequency of a character   
-      //then, store frequency in max and corresponding character in maxChar  
+       
       if(max < count[i]) {  
           max = count[i];  
           maxChar = string[i];  
